@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "402413236401",
+    "firebase_url": "https://earthquake-erbe.firebaseio.com",
+    "project_id": "earthquake-erbe",
+    "storage_bucket": "earthquake-erbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402413236401:android:bf5df01783f59e6edb7290",
+        "android_client_info": {
+          "package_name": "com.erbe.earthquake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402413236401-uhmhhk316d36qvloajrlbeism7bbmuj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.erbe.earthquake",
+            "certificate_hash": "6a0ae460ac96c7cb41458a47c7a99296fcd196fb"
+          }
+        },
+        {
+          "client_id": "402413236401-h02gagkt8dnmegn2g3epkm795hcknhaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6PiZDhEIZAFfLp_U1dHUF3qJKuoogYL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402413236401-h02gagkt8dnmegn2g3epkm795hcknhaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

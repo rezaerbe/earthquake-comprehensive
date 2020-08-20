@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">earthquake</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB6PiZDhEIZAFfLp_U1dHUF3qJKuoogYL4</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="24dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/popTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="More Information"
+                    android:textStyle="bold"
+                    android:textSize="18sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/popListTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Surrounding Cities"
+                    android:padding="8dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/popTitle">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/dismissPopTop"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/ic_cancel"
+                    android:layout_alignBottom="@id/popListTitle">
+
+                </Button>
+
+                <TextView
+                    android:id="@+id/popList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginTop="10dp"
+                    android:text="Hello"
+                    android:layout_below="@id/popListTitle">
+
+                </TextView>
+
+                <WebView
+                    android:id="@+id/htmlWebView"
+                    android:layout_below="@id/popList"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                </WebView>
+
+                <Button
+                    android:id="@+id/dismissPop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Close"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:background="@color/colorPrimary"
+                    android:layout_below="@id/htmlWebView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp">
+
+                </Button>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+</LinearLayout>
