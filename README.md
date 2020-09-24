@@ -13,6 +13,10 @@ This is course about how to build a strong foundation in Android  Development wi
 * Maps
 * Volley
 
+## Data Source
+
+https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
+
 ## Screenshots
 
 <img src="https://raw.githubusercontent.com/rezaerbe/earthquake-comprehensive/master/E1.jpg?raw=true" alt="E1" width=250 /> &nbsp; &nbsp; <img src="https://raw.githubusercontent.com/rezaerbe/earthquake-comprehensive/master/E2.jpg?raw=true&" alt="E2" width=250 />
